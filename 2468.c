@@ -21,7 +21,7 @@ int cnt;
 
 int DFS(int start, int end, int value)
 {
-	int top = -1, i;
+	int i;
 	int dx[4] = {-1, 1, 0, 0};
 	int dy[4] = {0, 0, 1, -1};
 
@@ -71,7 +71,7 @@ int main(void)
 	}
 */
 
-	for(h=1 ; h<=100 ; h++)	//높이 1 ~ 100까지 확인
+	for(h=0 ; h<=100 ; h++)	//높이 1 ~ 100까지 확인
 	{
 	//	printf("h: [%d]------------------------\n", h);
 		cnt=0;
